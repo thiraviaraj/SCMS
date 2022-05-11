@@ -179,7 +179,7 @@
 
       if (shouldStop === true && stopped === false) {
         setTimeout(() => stopStream(SCMS._videoElement.srcObject), 5000);
-        mediaRecorder.stop();
+        // mediaRecorder.stop();
         stopped = true;
         setTimeout(function () {
           document.getElementById("SCMS_download").click();
