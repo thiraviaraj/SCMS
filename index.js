@@ -62,7 +62,7 @@
       "" +
       "  <!-- Modal content -->" +
       '  <div class="modal-content">' +
-      '    <span class="titleFont">Feedback composer</span><span class="close" onclick="SCMS.closeModal()">&times;</span>' +
+      '    <span class="titleFont">Feedback Appreciation Composer</span><span class="close" onclick="SCMS.closeModal()">&times;</span>' +
       `    <div class="displayFlex row mt45"><span class="basis20px">To</span><span class="flex1"><input class="w80 inputBox" value="${config.mailAppreciateConfig.to}" /></span></div>` +
       `	<div class="displayFlex row"><span class="basis20px">CC</span><span class="flex1"><input  value="${config.mailAppreciateConfig.cc}" class="w80 inputBox" /></span></div>` +
       `	<div class="displayFlex row"><span class="basis20px">Subject</span><span class="flex1"><input class="w80 inputBox" value="${config.mailAppreciateConfig.subject}" /></span></div>` +
@@ -79,7 +79,7 @@
       "" +
       "  <!-- Modal content -->" +
       '  <div class="modal-content">' +
-      '    <span class="titleFont">Feedback composer</span><span class="close" onclick="SCMS.closeModal()">&times;</span>' +
+      '    <span class="titleFont">Feedback Issue composer</span><span class="close" onclick="SCMS.closeModal()">&times;</span>' +
       `    <div class="displayFlex row mt45"><span class="basis20px">To</span><span class="flex1"><input class="w80 inputBox" value="${config.mailIssueLoggerConfig.to}" /></span></div>` +
       `	<div class="displayFlex row"><span class="basis20px">CC</span><span class="flex1"><input  value="${config.mailIssueLoggerConfig.cc}" class="w80 inputBox" /></span></div>` +
       `	<div class="displayFlex row"><span class="basis20px">Subject</span><span class="flex1"><input class="w80 inputBox" value="${config.mailIssueLoggerConfig.subject}" /></span></div>` +
